@@ -23,7 +23,7 @@ public class Task1 {
 
     public static void check(int num) throws InvalidNumberException {
         if (num <= 0) throw new InvalidNumberException("Некорректное число");
-        System.out.printf("Ввод корректен: %d", num);
+        System.out.printf("Число корректно: %d", num);
     }
 }
 
